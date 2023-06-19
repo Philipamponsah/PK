@@ -1,0 +1,141 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #faf6f6;
+    background-size: cover;
+    color: #000;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    padding: 10px 40px 10px 70px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul div.items {
+    padding: 0 25px;
+    margin-top: 50px;
+    margin-right: 30px;
+    display: flex;
+    flex: auto;
+    position: absolute;
+}
+
+nav ul div.items a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 20px;
+}
+
+nav ul div.items a:hover {
+    color: #00bbf0;
+}
+
+@media screen and (max-width: 1052px) {
+    nav {
+        padding: 10px 40px 10px 0px;
+    }
+    nav ul div.items {
+        flex: 4;
+        margin-left: 70px;
+    }
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin: 30px;
+    font-size: 50px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    
+    
+}
+
+div.content {
+    height: 300px;
+    width: 500px;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 35px;
+}
+
+div#first {
+    background-image: url(img1.jpg);
+    background-size: cover;
+}
+
+div#second {
+    background-image: url(img3.jpg);
+    background-size: cover;
+}
+
+div#third {
+    background-image: url(img5.jpg);
+    background-size: cover;
+}
+
+div#fourth {
+    background-image: url(bcak.jpg);
+    background-size: cover;
+}
+
+div#fifth {
+    background-image: url(img6.jpg);
+    background-size: cover;
+}
+
+div#sixth {
+    background-image: url(img4.jpg);
+    background-size: cover;
+}
+
+div#one {
+    background-image: url(imgone.jpg);
+    background-size: cover;
+}
+
+div#two {
+    background-image: url(imgtwo.jpg);
+    background-size: cover;
+}
+
+div#three {
+    background-image: url(imgthree.jpg);
+    background-size: cover;
+}
+
+div#four {
+    background-image: url(imgfour.jpg);
+    background-size: cover;
+}
+
+div#five {
+    background-image: url(imgfive.jpg);
+    background-size: cover;
+}
+
+div#six {
+    background-image: url(imgsix.jpg);
+    background-size: cover;
+}
+
